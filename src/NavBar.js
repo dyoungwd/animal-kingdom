@@ -8,15 +8,15 @@ class NavBar extends Component {
     const username = this.props.username
     return (
 <nav className="navbar navbar-expand-md navbar-dark bg-blue fixed-top">
-<Link className="navbar-brand" to="/">Animal Kingdom</Link>
+<Link className="navbar-brand" to="/">The TuxVerse</Link>
 
 <div className="collapse navbar-collapse" id="navbarsExampleDefault">
   <ul className="navbar-nav mr-auto">
     <li className="nav-item">
-      <Link className="nav-link" to={`/kingdom/${username}`}>Your Kingdom</Link>
+      <Link className="nav-link" to={`/kingdom/${username}`}>Your Universe</Link>
     </li>
     <li className="nav-item">
-      <Link className="nav-link" to="/animals">Animals</Link>
+      <Link className="nav-link" to="/animals">Tux</Link>
     </li>
     <li className="nav-item">
       <Link className="nav-link" to="/territories">Territories</Link>

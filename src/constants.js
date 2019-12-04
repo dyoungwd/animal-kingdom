@@ -3,31 +3,67 @@ import { AppConfig } from 'blockstack'
 export const appConfig = new AppConfig(['store_write', 'publish_data'])
 export const ANIMALS = [
   {
-    id: 'cat',
-    name: 'Cat',
-    superpower: 'Has 9 lives.'
+    id: 'batman',
+    name: 'Tux Batman',
+    superpower: 'Im Batman.'
   },
   {
-    id: 'dog',
-    name: 'Dog',
-    superpower: 'Catching frisbees.'
+    id: 'superman',
+    name: 'Tux Superman',
+    superpower: 'Tux of Steel.'
   },
   {
-    id: 'lion',
-    name: 'Lion',
-    superpower: 'Roaring loudly.'
+    id: 'darthvader',
+    name: 'Tux Darth Vader',
+    superpower: 'Jedi Penguin.'
+  },
+  {
+    id: 'rambo',
+    name: 'Tux John Rambo',
+    superpower: '1 Tux Army '
+  },
+  {
+    id: 'gandalf',
+    name: 'Tux Gandalf',
+    superpower: 'Magic.'
+  },
+  {
+    id: 'samurai',
+    name: 'Tux Samurai',
+    superpower: 'Bushido.'
   }]
 
 export const TERRITORIES = [
   {
-    id: 'forest',
-    name: 'Forest',
-    superpower: 'Trees!'
+    id: 'middleearth',
+    name: 'Middle Earth',
+    superpower: 'Another Fantasy World'
   },
   {
-    id: 'tundra',
-    name: 'Tundra',
-    superpower: 'Let it snow!'
+    id: 'japan',
+    name: 'Feudal Japan',
+    superpower: 'Home of the Samurai'
+  },
+  {
+    id: 'town',
+    name: 'Redneck Town',
+    superpower: 'Marry your cousin!'
+  },
+  {
+    id: 'deathstar',
+    name: 'The Death Star',
+    superpower: 'Join the the Dark Side'
+  },
+
+  {
+    id: 'gotham',
+    name: 'Gotham City',
+    superpower: 'Home of the Jocker'
+  },
+  {
+    id: 'metropolis',
+    name: 'Metropolis City',
+    superpower: 'Home of Superman'
   }
 ]
 

@@ -15,7 +15,7 @@ class EditMe extends Component {
       selectedAnimal: false,
       selectedTerritory: false
     }
-    
+
     this.loadMe = this.loadMe.bind(this)
 
   }
@@ -31,7 +31,7 @@ class EditMe extends Component {
         this.setState({selectedAnimal: false, selectedTerritory: false})
       }
   }
-  
+
 
   selectAnimal(e, animal) {
     e.preventDefault()
@@ -54,16 +54,16 @@ class EditMe extends Component {
       myAnimal = this.props.me.animal
       myTerritory = this.props.me.territory
     }
-    const selectedAnimal = this.state.selectedAnimal 
+    const selectedAnimal = this.state.selectedAnimal
     const selectedTerritory = this.state.selectedTerritory
     const completed = selectedAnimal && selectedTerritory
     const username = this.props.username
 
     return (
       <div className="EditMe container">
-      <h2>Your animal persona</h2>
-      <p>You are the ruler of your kingdom! Pick your animal persona and its home!</p>
-        <h3>Select your animal</h3>
+      <h2>Your Tux persona</h2>
+      <p>You are the ruler of your kingdom! Pick your Tux persona and its home!</p>
+        <h3>Select your Tux</h3>
         <div className="row card-deck">
         { ANIMALS.map((animal, index) => {
           const selected = myAnimal && myAnimal.id === animal.id
@@ -86,7 +86,7 @@ class EditMe extends Component {
         <div className="container row">
           <div className="col-lg-12 done">
             <p>
-              <Link to={completed?`/kingdom/${username}`:`/me`} 
+              <Link to={completed?`/kingdom/${username}`:`/me`}
                     className="btn btn-primary">Done</Link>
             </p>
           </div>

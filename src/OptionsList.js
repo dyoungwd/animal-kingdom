@@ -12,7 +12,7 @@ class OptionsList extends Component {
     }
     return (
       <div className="OptionsList container">
-          <h2>Available { type } on this planet</h2>
+          <h2>Available Tux in this Universe</h2>
           <div className="card-deck">
             {options.map((option, index) => {
             return (
